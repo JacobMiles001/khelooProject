@@ -1,0 +1,30 @@
+/* Custom styles for the navigation bar */
+.navbar {
+  background-color: #0d1115; 
+}
+
+.navbar-brand {
+  font-weight: bold; 
+}
+
+
+.navbar-nav .nav-link {
+  color: #333; /* Link text color */
+  font-weight: bold; /* Link font weight */
+  margin-right: 10px; /* Add space between links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Link text color on hover */
+}
+
+.navbar-nav .nav-link.active {
+  color: #007bff; /* Link text color when active */
+}
+
+@media (max-width: 767px) {
+  /* Styles for mobile screens */
+  .navbar-nav {
+    margin-top: 10px; /* Add space between the toggler and links */
+  }
+}
