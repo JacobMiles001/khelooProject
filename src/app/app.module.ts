@@ -11,7 +11,7 @@ import { LoginComponent } from './header/auth/login/login.component';
 import { RegisterComponent } from './header/auth/register/register.component';
 import { ForgotPasswordComponent } from './header/auth/forgot-password/forgot-password.component';
 import { RecoverPasswordComponent } from './header/auth/recover-password/recover-password.component';
-import { BannerComponent } from './banner/banner.component';
+
 
 @NgModule({
   declarations: [
@@ -24,11 +24,12 @@ import { BannerComponent } from './banner/banner.component';
     RegisterComponent,
     ForgotPasswordComponent,
     RecoverPasswordComponent,
-    BannerComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]

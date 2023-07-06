@@ -1,0 +1,67 @@
+// /* Set a specific height for the carousel */
+// #carouselExampleIndicators {
+//     height: 300px;
+//   }
+  
+//   /* Customize the carousel indicators */
+//   .carousel-indicators {
+//     bottom: 10px;
+//   }
+  
+//   .carousel-indicators li {
+//     width: 12px;
+//     height: 12px;
+//     border-radius: 50%;
+//     background-color: #bbb;
+//     margin: 0 4px;
+//   }
+  
+//   .carousel-indicators .active {
+//     background-color: #333;
+//   }
+  
+//   /* Adjust the size and position of carousel controls */
+//   .carousel-control-prev,
+//   .carousel-control-next {
+//     width: 40px;
+//     height: 40px;
+//     background-color: rgba(0, 0, 0, 0.5);
+//     border-radius: 50%;
+//     margin-top: -20px;
+//   }
+  
+//   .carousel-control-prev-icon,
+//   .carousel-control-next-icon {
+//     display: inline-block;
+//     width: 20px;
+//     height: 20px;
+//     background-repeat: no-repeat;
+//     background-position: 50%;
+//     background-size: 100%;
+//     position: relative;
+//     top: 50%;
+//     transform: translateY(-50%);
+//   }
+  
+//   .carousel-control-prev-icon {
+//     background-image: url("prev-icon.png");
+//   }
+  
+//   .carousel-control-next-icon {
+//     background-image: url("next-icon.png");
+//   }
+  
+//   /* Customize the slide transition speed */
+//   .carousel-item {
+//     transition: transform 0.5s ease;
+//   }
+  
+//   .carousel-item.active {
+//     transform: translateX(0);
+//   }
+  
+//   .carousel-item-next,
+//   .carousel-item-prev {
+//     transform: translateX(100%);
+//   }
+  
